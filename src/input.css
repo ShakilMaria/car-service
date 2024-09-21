@@ -1,3 +1,96 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .container {
+     max-width: 1150px;
+     margin: 0 auto;
+    }
+    .btn{
+       
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px 40px;
+        border-radius: 8px;
+        border: 1px solid transparent;
+        transition: .3s ease-in-out;
+    }
+    .btn:hover{
+        border-color: rgba(255, 255, 255, 0.315);
+        background-color: transparent;
+       
+    }
+    .border-color{
+        border-color: rgba(255, 255, 255, 0.315);
+    }
+  
+    .service-item{
+        background-color: #1e1e1e;
+        border-radius: 10px;
+        position: relative;
+        height: 200px;
+        overflow: hidden;
+        transition: .3s ease-in-out;
+        
+    }
+    .service-item p:nth-of-type(1){
+        font-size: 18px;
+        position: absolute;
+        top: 15px;
+        left: 25px;
+    }
+    .service-item button{
+        background-color: #FF001D;
+        padding: 3px 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        z-index: 10;
+        transition: .3s ease-in-out;
+    }
+    .service-item p:nth-of-type(2){
+        position: absolute;
+        bottom: 15px;
+        left: 25px;
+        font-size: 18px;
+    }
+
+    .service-item p span{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .service-item img{
+        position: absolute;
+       
+        z-index: 2;
+       
+
+    }
+    .service-item .service-shadow{
+        bottom: -10%;
+        right: -40%;
+        transform: scale(140%);
+        z-index: 1;
+    }
+    .service-item:nth-of-type(4) img{
+        bottom: 0;
+        right: 0;
+        width: 60%;
+    }
+     .service-item:hover{
+        background-color: hsl(353,100%,50%);
+     }
+
+     .service-item:hover button{
+        background-color: #1e1e1e;
+     }
+ 
+    }

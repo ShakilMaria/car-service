@@ -553,3 +553,412 @@ video {
 [hidden] {
   display: none;
 }
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.btn{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 40px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: .3s ease-in-out;
+}
+
+.btn:hover{
+  border-color: rgba(255, 255, 255, 0.315);
+  background-color: transparent;
+}
+
+.border-color{
+  border-color: rgba(255, 255, 255, 0.315);
+}
+
+.service-item{
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  transition: .3s ease-in-out;
+}
+
+.service-item p:nth-of-type(1){
+  font-size: 18px;
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+
+.service-item button{
+  background-color: #FF001D;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  z-index: 10;
+  transition: .3s ease-in-out;
+}
+
+.service-item p:nth-of-type(2){
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  font-size: 18px;
+}
+
+.service-item p span{
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.service-item img{
+  position: absolute;
+  z-index: 2;
+}
+
+.service-item .service-shadow{
+  bottom: -10%;
+  right: -40%;
+  transform: scale(140%);
+  z-index: 1;
+}
+
+.service-item:nth-of-type(4) img{
+  bottom: 0;
+  right: 0;
+  width: 60%;
+}
+
+.service-item:hover{
+  background-color: hsl(353,100%,50%);
+}
+
+.service-item:hover button{
+  background-color: #1e1e1e;
+}
+
+.-right-1\/2 {
+  right: -50%;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.-right-1 {
+  right: -0.25rem;
+}
+
+.-right-\[6\] {
+  right: -6;
+}
+
+.-right-\[60\] {
+  right: -60;
+}
+
+.-right-\[60\%\] {
+  right: -60%;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.scale-\[120\%\] {
+  --tw-scale-x: 120%;
+  --tw-scale-y: 120%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-gray-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(17 24 39 / var(--tw-border-opacity));
+}
+
+.bg-\[\#141414\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 20 20 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FF001D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 29 / var(--tw-bg-opacity));
+}
+
+.bg-\[hsl\(353\2c 100\%\2c 50\%\)\] {
+  --tw-bg-opacity: 1;
+  background-color: hsl(353 100% 50% / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/assets\/Background\.png\'\)\] {
+  background-image: url('/assets/Background.png');
+}
+
+.bg-right-bottom {
+  background-position: right bottom;
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:bg-\[\#FF001D\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 29 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:-right-\[60\%\] {
+    right: -60%;
+  }
+
+  .sm\:bottom-6 {
+    bottom: 1.5rem;
+  }
+
+  .sm\:-right-\[0\%\] {
+    right: -0%;
+  }
+
+  .sm\:-right-\[70\%\] {
+    right: -70%;
+  }
+
+  .sm\:right-\[70\%\] {
+    right: 70%;
+  }
+
+  .sm\:right-\[80\%\] {
+    right: 80%;
+  }
+
+  .sm\:-right-\[80\%\] {
+    right: -80%;
+  }
+
+  .sm\:-right-\[6\%\] {
+    right: -6%;
+  }
+
+  .sm\:-right-\[65\%\] {
+    right: -65%;
+  }
+
+  .sm\:bottom-7 {
+    bottom: 1.75rem;
+  }
+
+  .sm\:w-\[32\%\] {
+    width: 32%;
+  }
+
+  .sm\:scale-\[150\%\] {
+    --tw-scale-x: 150%;
+    --tw-scale-y: 150%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .sm\:scale-\[10\%\] {
+    --tw-scale-x: 10%;
+    --tw-scale-y: 10%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .sm\:scale-\[160\%\] {
+    --tw-scale-x: 160%;
+    --tw-scale-y: 160%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-auto {
+    width: auto;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:bg-\[length\:100\%_100\%\] {
+    background-size: 100% 100%;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}

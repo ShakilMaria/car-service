@@ -10,24 +10,139 @@
 
      <!-- ================ main css ============= -->
       <link rel="stylesheet" href="./src/output.css">
+      <!-- =============== fontawsome ======================== -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-       <header>
-              <nav>
-                   <div class="logo_btn">
-                      <img src="./assets/Logotype.png" alt="">
-                      <button><i></i> <p>Услуги</p></button>
-                   </div>
-                   <div class="menu-list">
-                       <ul>
-                        <li><a href="#">Контакты</a></li>
-                        <li><a href="#">Окомпании</a></li>
-                        <li><a href="#">Акции</a></li>
-                        <li><a href="#">Контакты</a></li>
-                       </ul>
-                       <button>+7 495 207-75-70</button>
-                   </div>
-              </nav>
+<body class="bg-[#141414] text-white px-3">
+
+       <!-- =============== header ================ -->
+       <header >
+             <div class="header-area bg-[url('/assets/Background.png')] container md:coover bg-right-bottom md:bg-[length:100%_100%] p-12 mt-8 rounded-3xl">
+              <nav class="flex justify-between mb-24 border-b border-gray-900 pb-6">
+                     <div class="logo_btn flex gap-12  items-center justify-between w-full md:w-auto ">
+                        <img src="./assets/Logotype.png" alt="">
+                        <button class="bg-[hsl(353,100%,50%)] flex gap-4 items-center px-4 py-1 rounded-lg"><i class="fa-solid fa-bars"></i> <p>Услуги</p></button>
+                     </div>
+                     <div class="menu-list hidden md:flex gap-12 ">
+                         <ul class="flex items-center gap-5">
+                          <li><a href="#">Контакты</a></li>
+                          <li><a href="#">Окомпании</a></li>
+                          <li><a href="#">Акции</a></li>
+                          <li><a href="#">Контакты</a></li>
+                         </ul>
+                         <button>+7 495 207-75-70</button>
+                     </div>
+                </nav>
+                <div class="hero-sec ">
+                       <div class="hero-box">
+                        <h1 class="text-3xl md:text-7xl mb-10">Премиальное <br>обслуживание <br>
+                              вашего автомобиля</h1>
+                        <div class="button-box flex md:items-center pb-10 gap-10 flex-col sm:flex-row ">
+                              <button class="btn bg-[#FF001D]">
+                                     
+                                     <p>Запись в сервис</p>
+                                     <i class="fa-solid fa-chevron-right"></i>
+                              </button>
+                              <button class="btn border-color hover:bg-[#FF001D]">
+                                   <i class="fa-regular fa-comment-dots"></i>
+                                     <p>Консультация</p>
+                              </button>
+                        </div>
+         
+                       </div>
+                </div>
+             </div>
        </header>
+       <!-- ============== hero sec ===================== -->
+      
+
+       <!-- ============ service ================== -->
+        <div class="service-sec mt-4">
+              <div class="service-box container flex gap-5 flex-wrap sm:justify-between">
+                     <div class="service-item w-full sm:w-[32%]">
+                            <p>Обклейка авто <br>
+                                   пленкой</p>
+                             <button>АКЦИЯ</button>
+                            <p><span>от</span> 32 000 ₽</p>
+                            <img class="bottom-1 -right-1/2 scale-[120%]  sm:scale-[150%] sm:bottom-6 sm:-right-[60%]" src="./assets/image 17.png" alt="image">
+                            <img  class="service-shadow" src="assets/image 2.png" alt="">
+                     </div>
+                     <div class="service-item w-full sm:w-[32%]">
+                            <p>Слесарный <br>
+                                   ремонт</p>
+                            
+                            <p><span>от</span> 2999 ₽</p>
+                            <img class="bottom-1 -right-1/2 scale-[120%]  sm:scale-[150%] sm:bottom-6 sm:-right-[60%]" src="./assets/image 12.png" alt="image">
+                            <img  class="service-shadow" src="assets/image 2.png" alt="">
+                     </div>
+                     <div class="service-item w-full sm:w-[32%]">
+                            <p>Покраска <br>
+                                   дисков</p>
+                            <button>АКЦИЯ</button>
+                            <p><span>от</span> 4000 ₽</p>
+                            <img class="bottom-1 -right-1/2 scale-[120%]  sm:scale-[150%] sm:bottom-6 sm:-right-[60%]" src="./assets/Group 413.png" alt="image">
+                            <img  class="service-shadow" src="assets/image 2.png" alt="">
+                     </div>
+                     <div class="service-item w-full sm:w-[32%]">
+                            <p>Тюнинг выхлопной 
+                                   <br> системы</p>
+                            <button>АКЦИЯ</button>
+                            <p><span>от</span>32 000 ₽</p>
+                            <img class="sm:scale-[150%]" src="./assets/image 14.png" alt="image">
+                           
+                     </div>
+                     <div class="service-item w-full sm:w-[32%]">
+                            <p>Кузовной
+                                   ремонт</p>
+                            <button>АКЦИЯ</button>
+                            <p><span>от</span>32 000 ₽</p>
+                            <img class="bottom-3 -right-[60%] scale-[120%]  sm:scale-[160%] sm:bottom-7 sm:-right-[65%] z-10" src="./assets/image 1.png" alt="image">
+                            <img  class="service-shadow" src="assets/image 2.png" alt="">
+                     </div>
+                     <div class="service-item w-full sm:w-[32%]">
+                            <p>Мойка
+                                   автомобиля</p>
+                            <p><span>от</span>990 ₽</p>
+                            <img class="bottom-3 -right-[60%] scale-[120%]  sm:scale-[160%] sm:bottom-7 sm:-right-[70%]" src="./assets/image 16.png" alt="image">
+                            <img  class="service-shadow" src="assets/image 2.png" alt="">
+                     </div>
+              </div>
+        </div>
+
+
+        <div class="product-sec">
+              <div class="product-sec-are">
+                  <h2></h2>
+                   <div class="arrow">
+                     <button></button>
+                     <button></button>
+                   </div>
+                <div class="product-box"></div>
+                     <div class="product-item">
+                        <div>
+                            <img src="" alt="">
+                            <p></p>
+                            <p></p>
+                        </div> 
+                        <p class="title"></p>
+                        <button>
+                              <p></p>
+                              <i></i>
+                        </button>
+
+                     </div>
+                </div>
+                <div class="product-socil-box">
+                     <div>
+
+                     </div>
+                     <button></button>
+                     <button></button>
+                     <button></button>
+                 </div>
+              </div>
+              
+        </div>
+ 
 </body>
 </html>
