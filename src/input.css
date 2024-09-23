@@ -4,8 +4,8 @@
 
 
 @layer components {
-    .container {
-     max-width: 1150px;
+    .my-container {
+     max-width: 1360px;
      margin: 0 auto;
     }
     .btn{
@@ -33,7 +33,7 @@
         background-color: #1e1e1e;
         border-radius: 10px;
         position: relative;
-        height: 200px;
+        height: 250px;
         overflow: hidden;
         transition: .3s ease-in-out;
         
